@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hotels</title>
+  <style type="text/css"     }
+  </style>
+</head>
+
+<body>
+
+  <div class="photobanner">
+  <MARQUEE behavior="scroll" direction="left" width="100%">
+        <img src="images/slideshow1.jpg">
+        <img src="images/slideshow2.jpg">
+        <img src="images/slideshow3.jpg">
+        <img src="images/slideshow4.jpg">
+        </MARQUEE>
+        </div>
+
+<script type="text/javascript">
+  
+  var queryURL = "https://www.googleapis.com/travelpartner/v1.2/hotels?type=ALL"
+
+  $.ajax({
+          url: queryURL,
+          method: "GET"
+        }).done(function(response) {
+          console.log(response);
+        });
+      }
+
+</script>
