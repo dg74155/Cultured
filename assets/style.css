@@ -1,0 +1,30 @@
+h1  {
+	width: 95%;
+	height: 200px;
+	color: black;
+	font-family: "Roboto", sans serif;
+	font-weight: 200;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 25px;
+}
+
+#logo  {
+	height: 125px;
+	width: 185px;
+	padding-left: 15px;
+}
+
+ul  {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+li   {
+	display: inline;
+	padding-right: 5px;
+	border-color: black;
+}
