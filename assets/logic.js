@@ -49,7 +49,7 @@ $("#button").on("click", function() {
 	    	for (var i = 0; i < oData.events.event.length; i++) {
 	    		console.log(oData.events.event[i].title);
 	    			var results = oData.events.event[i].title;
-	    		$("tbody").append("<tr><td>" + resultsH + "</td><td>" + "i" + "</td><td>" + results + "</td></tr>");
+	    		$("tbody").append("<tr><td>" + "Coming Soon" + "</td><td>" + "Coming Soon" + "</td><td>" + results + "</td></tr>");
 	    	}
 	    }
 
