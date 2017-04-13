@@ -15,7 +15,7 @@ $("#button").on("click", function() {
         page_size: 10,
 
     };
-     var APIURL = "https://cors-anywhere.herokuapp.com/http://api.hotwire.com/v1/tripstarter/hotel";
+     var APIURL = "http://cors-anywhere.herokuapp.com/http://api.hotwire.com/v1/tripstarter/hotel";
     var APIKey = "9utpjxqyqm6wd2r3bvtgw5mr";
     
 // sensing the on click function to run the ajax
@@ -26,7 +26,7 @@ $("#button").on("click", function() {
         var date1 = new Date(DateIn).toLocaleDateString();
         var date2 = new Date(DateOut).toLocaleDateString();
 
-        var queryURL =  "https://hotwire.herokuapp.com/v1/search/hotel?apikey=9utpjxqyqm6wd2r3bvtgw5mr&dest="
+        var queryURL =  "http://hotwire.herokuapp.com/v1/search/hotel?apikey=9utpjxqyqm6wd2r3bvtgw5mr&dest="
          + CityInput + "&rooms=1&adults=1&children=0&startdate=" + date1 + "&enddate=" + date2 + "&format=json";
         
             $.ajax({
