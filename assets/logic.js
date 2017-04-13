@@ -15,7 +15,7 @@ $("#button").on("click", function() {
         page_size: 10,
 
     };
-     var APIURL = "https://cors-anywhere.herokuapp.com/http://api.hotwire.com/v1/tripstarter/hotel";
+     var APIURL = "http://cors-anywhere.herokuapp.com/http://api.hotwire.com/v1/tripstarter/hotel";
     var APIKey = "9utpjxqyqm6wd2r3bvtgw5mr";
     
 // sensing the on click function to run the ajax
